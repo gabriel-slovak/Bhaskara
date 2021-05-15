@@ -49,7 +49,7 @@ namespace Bhaskara
                 Console.WriteLine("\nA equação não possuí raízes reais!\n");
                 Console.ResetColor();
             }
-            else if (a >=1 && delta >=1)
+            else 
             {
                 x1 = (-b + Math.Sqrt(delta)) / (2 * a);
                 x2 = (-b - Math.Sqrt(delta)) / (2 * a );
